@@ -35,3 +35,8 @@ for (let l = 0; l < 10; l++) {
 //Growth is with respect with input
 //Drop constants
 //Worst case is usually the way we measure
+
+//Arrays
+//Is const a= [] an array?
+//an array is a contiguous(unbreaking) memory space
+//an array can be interpreted depending on the view that is taken of it
