@@ -40,3 +40,12 @@ for (let l = 0; l < 10; l++) {
 //Is const a= [] an array?
 //an array is a contiguous(unbreaking) memory space
 //an array can be interpreted depending on the view that is taken of it
+
+//Binary Search
+//say you have an function that takes in an array, a high, and a low. we're looking for n
+//it will stop when the high and low are effectively the same
+// the midpoint is  low + (high - low) / 2 .floor
+// v = arr[m] if the valued stored at the calculated midpoint is less than the value stored at its index in an array
+//if v == n {return true} if the value is the same as n return true
+//else if {v>m} low = m + 1 if the value is greater than the calculated midpoint, you should make your low = m+1
+//else  {high = m} if the value is less than the calculated midpoint, you should make your high = m
